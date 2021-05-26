@@ -2,23 +2,21 @@ import React from "react";
 import tedProfilePicture from "../assets/images/[ResultPage]tedProfilePicture.svg";
 import timProfilePicture from "../assets/images/[ResultPage]timProfilePicture.svg";
 import merryProfilePicture from "../assets/images/[ResultPage]merryProfilePicture.svg";
+import dweinProfilePicture from "../assets/images/[ResultPage]dweinProfilePicture.svg";
 import kakaotalk from "../assets/images/kakaotalk.svg";
 import twitter from "../assets/images/twitter.svg";
 import share from "../assets/images/share.svg";
 import { dataSet } from "../assets/data.json";
 import { Link } from "react-router-dom";
 
-const Result1 = () => {
-  console.log();
-  //   console.log(title);
+const Result4 = () => {
   return (
     <>
-      <div>{dataSet[0].title}</div>
-      <div>{dataSet[0].name}</div>
+      <div>{dataSet[3].title}</div>
+      <div>{dataSet[3].name}</div>
       <div>
-        <img src={tedProfilePicture} alt="tedProfilePicture" />
-        <div>"테드 유형들의 영어 한마디"</div>
-        <div>{dataSet[0].subTitle}</div>
+        <img src={dweinProfilePicture} alt="dweinProfilePicture" />
+        <div>{dataSet[3].subTitle}</div>
       </div>
 
       <div>
@@ -26,7 +24,7 @@ const Result1 = () => {
           <div></div>
           <div></div>
         </div>
-        <div>{dataSet[0].content}</div>
+        <div>{dataSet[3].content}</div>
       </div>
 
       <div>
@@ -35,8 +33,8 @@ const Result1 = () => {
           <div></div>
         </div>
         만나면 좋은 캐릭터
-        <img src={timProfilePicture} alt="timProfilePicture" />
-        <div>{dataSet[0].positive}</div>
+        <img src={merryProfilePicture} alt="merryProfilePicture" />
+        <div>{dataSet[3].positive}</div>
       </div>
 
       <div>
@@ -45,8 +43,8 @@ const Result1 = () => {
           <div></div>
         </div>
         거리두기가 필요해요
-        <img src={merryProfilePicture} alt="merryProfilePicture" />
-        <div>{dataSet[0].negative}</div>
+        <img src={timProfilePicture} alt="timProfilePicture" />
+        <div>{dataSet[3].negative}</div>
       </div>
 
       <div>
@@ -66,4 +64,4 @@ const Result1 = () => {
   );
 };
 
-export default Result1;
+export default Result4;
