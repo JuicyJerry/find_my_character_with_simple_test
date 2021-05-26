@@ -1,4 +1,6 @@
 import React from "react";
+import Question1MainImage from "../assets/images/[Question1Page]mainPicture.svg";
+import ted from "../assets/images/[QuestionsPage]ted.svg";
 
 const Question1 = () => {
   const onClick = (e) => {
@@ -8,10 +10,22 @@ const Question1 = () => {
 
   return (
     <>
+      <header>
+        <div></div>
+        <div></div>
+      </header>
+      <div>1/3</div>
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <img src={ted} alt="tedImage" />
       <h1>Q</h1>
       <h1>새로운 사람과의 첫 대면.</h1>
       <h1>어색한 정적만 흐르고 있다.</h1>
       <h1>이럴 때 나는?</h1>
+      <img src={Question1MainImage} alt="Question1MainImage" />
       <form>
         <input
           type="button"
