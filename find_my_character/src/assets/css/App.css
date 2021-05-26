@@ -1,0 +1,60 @@
+body * {
+  font-family: "Noto Sans KR", sans-serif;
+  box-sizing: border-box;
+  /* border: 2px solid red; */
+}
+
+.App {
+  background: linear-gradient(315deg, #25b2ea 0%, #1dd487 100%);
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  width: 375px;
+  height: 668px;
+}
+.LandingPageSubTitle {
+  position: absolute;
+  left: auto;
+  right: auto;
+  top: 0%;
+  bottom: 85.33%;
+}
+
+.LandingPageSubTitleHeader {
+  background: #5963ff;
+  height: 4px;
+  width: 246px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  border: 1.4px solid #000000;
+}
+
+#search {
+  height: 2.769230842590332px;
+  width: 2.769230842590332px;
+  left: 232.30767822265625px;
+  top: 19.23076629638672px;
+  border-radius: 0px;
+}
+
+#LandingPageTitle {
+  position: absolute;
+  width: 322px;
+  height: 90px;
+  left: 26px;
+  top: 137px;
+}
+
+.testStartBtn {
+  position: absolute;
+  width: 278.11px;
+  height: 49px;
+  left: 47px;
+  top: 534px;
+
+  background: #5963ff;
+  border: 2.1888px solid #000000;
+}
