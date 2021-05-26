@@ -1,17 +1,32 @@
 import React from "react";
+import Question3MainImage from "../assets/images/[Question3Page]mainPicture.svg";
+import ted from "../assets/images/[QuestionsPage]ted.svg";
 
 const Question3 = () => {
   const onClick = (e) => {
     e.preventDefault();
-    console.log("clicked on q1");
+    console.log("clicked on q3");
   };
 
   return (
     <>
+      <header>
+        <div></div>
+        <div></div>
+      </header>
+      <div>3/3</div>
+      <div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <img src={ted} alt="tedImage" />
       <h1>Q</h1>
       <h1>날씨 좋은 어느 날,</h1>
       <h1>일찍 퇴근하게 되었다.</h1>
-      <h1>이 때 나는?</h1>
+      <h1>이 때의 나는?</h1>
+
+      <img src={Question3MainImage} alt="Question3MainImage" />
       <form>
         <input
           type="button"
