@@ -1,8 +1,8 @@
 import react from "react";
-import LandingPage from "./Page/LadingPage";
-import Question1 from "./Component/Question1";
-import Question2 from "./Component/Question2";
-import Question3 from "./Component/Question3";
+import LandingPage from "./page/LadingPage";
+import Question1 from "./component/Question1";
+import Question2 from "./component/Question2";
+import Question3 from "./component/Question3";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // const { Router, Route, Switch } = require("react-router-dom");
 
